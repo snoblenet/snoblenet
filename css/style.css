@@ -1,0 +1,57 @@
+/* line 7, ../scss/style.scss */
+body {
+  background-color: #A6F0F8;
+  background-image: url(https://snoblenet.github.io/snoblenet/img/background.jpg);
+  background-size: cover;
+}
+
+/* line 13, ../scss/style.scss */
+h1, i {
+  text-shadow: 4px 4px 4px #d56062;
+}
+
+/* line 17, ../scss/style.scss */
+h1 {
+  color: pink;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 900;
+  font-size: 8em;
+}
+
+/* line 24, ../scss/style.scss */
+i.fa, i.fa-6 {
+  font-size: 8em;
+  color: #A6F0F8;
+  text-shadow: 4px 4px 4px #1361b2;
+  padding: 0.5em;
+}
+/* line 29, ../scss/style.scss */
+i.fa:hover, i.fa-6:hover {
+  background-color: #1361b2;
+}
+
+/* line 32, ../scss/style.scss */
+.header, .content {
+  float: left;
+  text-align: center;
+}
+
+/* line 37, ../scss/style.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* line 42, ../scss/style.scss */
+div {
+  width: 100%;
+}
+
+/* line 46, ../scss/style.scss */
+.box {
+  display: inline-block;
+  min-width: 10em;
+  max-width: 30%;
+  margin: 1em;
+  text-align: center;
+}

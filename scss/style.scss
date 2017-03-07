@@ -1,0 +1,52 @@
+$dark-blue: rgba(19, 97, 178, 1);
+$dark-green: rgba(56, 77, 72, 1);
+$light-blue: #A6F0F8;
+$salmon: rgba(221, 149, 133, 1);
+$rust: rgba(213, 96, 98, 1);
+
+body {
+  background-color: $light-blue;
+  background-image: url(https://snoblenet.github.io/snoblenet/img/background.jpg);
+  background-size: cover;
+}
+
+h1, i {
+  text-shadow: 4px 4px 4px $rust;
+}
+
+h1 {
+  color: pink;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 900;
+  font-size: 8em;
+}
+
+i.fa, i.fa-6 {
+  font-size: 8em;
+  color: $light-blue;
+  text-shadow: 4px 4px 4px $dark-blue;
+  padding: 0.5em;
+  &:hover { background-color: $dark-blue; }
+}
+
+.header, .content {
+  float: left;
+  text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+div {
+  width: 100%;
+}
+
+.box {
+  display: inline-block;
+  min-width: 10em;
+  max-width: 30%;
+  margin: 1em;
+  text-align: center;
+}
